@@ -2,7 +2,7 @@
 if(!function_exists('page_title')){
     function page_title($title)
     {
-        $base_title='Laracarte - liste of artisans';
+        $base_title=config('app.name').' - liste of artisans';
        if($title == ''){
            return $base_title; 
        }else{
