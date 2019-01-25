@@ -1,4 +1,4 @@
-@extends('lyaouts/default')
+@extends('lyaouts/default',['title'=>'About'])
 @section('content')
 <div class="container">
     <h2>What is Laracarte?</h2>  
